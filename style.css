@@ -1,35 +1,8 @@
-h1{
-    color: aqua;
-    background-color: rgb(24, 72, 56);
-    text-align: center;
-
-}
-p{
-    margin: 15px;
-    border: 2px solid;
-    color: rgb(215, 195, 165);
-    background-color: rgb(43, 43, 129);
-}
-.box1{
-    width: 95%;
-    height: 200px;
-    text-align: center;
-
-    background-color: rgb(97, 50, 141);
-    color: aqua;
-}
 .box2{
-    width: 400px;
     height: 300px;
-    border-radius: 0svb;
-    color: bisque;
-    background-color: rgb(49, 175, 175);
-    margin: 30px auto;
+    width: 300px;
+    margin: 30px;
+    color: blue;
     text-align: center;
-    
-
-}
-h2{
-    color: rgb(13, 189, 130);
-    background-color: azure;
+    background: linear-gradient(20deg, green,gray,pink );
 }
