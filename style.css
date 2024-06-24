@@ -10,3 +10,11 @@ p{
     color: rgb(215, 195, 165);
     background-color: rgb(43, 43, 129);
 }
+.box1{
+    width: 95%;
+    height: 200px;
+    text-align: center;
+    
+    background-color: rgb(97, 50, 141);
+    color: aqua;
+}
