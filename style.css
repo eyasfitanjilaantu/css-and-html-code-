@@ -4,3 +4,9 @@ h1{
     text-align: center;
 
 }
+p{
+    margin: 15px;
+    border: 2px solid;
+    color: rgb(215, 195, 165);
+    background-color: rgb(43, 43, 129);
+}
