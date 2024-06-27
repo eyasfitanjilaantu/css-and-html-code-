@@ -1,6 +1,8 @@
-var myFatherName ="fazlur rahman"
-console.log(myFatherName)
-var myName ="sharjid hasan"
-console.log(myName)
-var myAge ="24"
-console.log(myAge)
+var myVillage ="gopinathput"
+console.log(myVillage);
+
+var myFatherName =`emdadul haue`
+console.log(myFatherName);
+
+var myMotherName ='salma sultana'
+console.log( typeof myMotherName);
