@@ -8,20 +8,19 @@
 <body>
 
     <script>
-        var myLeptop={
-            brand:"hp",
-            disply:16,
-            isLaptop:true,
-            ram:"8 GB",
-            processor:"core i7",
-            isSSD:true,
-
-        }
-
-        // document.write(myLeptop.processor)
-        for (var item in myLeptop){
-            document.write(myLeptop[item]+ "<br>")
-        }
+       var cetagory =[
+        "snear studio",
+        "brands",
+        "men",
+        "women",
+        "children",
+        "accessories"
+       ]
+    //    document.write(cetagory[0]);
+    
+       for (x=0; x<cetagory.length; x=x+1){
+        document.write(cetagory[x]+"<br>");
+       }
         
 
 
