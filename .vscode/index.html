@@ -8,29 +8,21 @@
 <body>
 
     <script>
-        function myBook(name){
-            document.write(name,"<br>")
+        var myLeptop={
+            brand:"hp",
+            disply:16,
+            isLaptop:true,
+            ram:"8 GB",
+            processor:"core i7",
+            isSSD:true,
 
         }
-        myBook("grihodaho");
-        myBook("cokrbali")
-        myBook("chiti")
-        function myMakeup(){
-            return " sheik rasel"
+
+        // document.write(myLeptop.processor)
+        for (var item in myLeptop){
+            document.write(myLeptop[item]+ "<br>")
         }
-        newValue=myMakeup()+" digital lab";
-        document.write(newValue)
-        function addTwoNumber(num1,num2){
-            return num1+num2;
-        }
-        newValue = addTwoNumber(11, 11)+10;
-        document.write(newValue);
-              
-
-
-
-
-
+        
 
 
     </script>
